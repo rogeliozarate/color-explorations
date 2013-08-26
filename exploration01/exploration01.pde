@@ -1,7 +1,7 @@
 void setup()
 {
   size(600,800);
-  colorMode(HSB, 360, 100, 100);
+  colorMode(HSB, 360, random(0,100), random(0,100));
   noStroke();
   
   float hueStart   = random( 0, 120);
